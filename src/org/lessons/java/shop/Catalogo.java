@@ -114,7 +114,7 @@ public class Catalogo {
 				System.out.println("inserisci i pollici del tuo televisore");
 				pollici = data.nextInt();
 				
-				System.out.println("codice prodotto:" +" "+Prodotto.setCodiceProdotto(codiceProdotto));
+				System.out.println("codice prodotto:" +" "+Prodotto.getCodiceProdotto());
 				System.out.println("nome:" +" "+nuovoTelevisore.nome);
 				System.out.println("marca:" +" "+nuovoTelevisore.marca);
 				System.out.println("prezzo senza Iva:" +" "+nuovoTelevisore.prezzo);
