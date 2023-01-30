@@ -60,7 +60,7 @@ public class Catalogo {
 			
 //			creo istanza
 			nuovoSmartPhone = new Smartphone(Prodotto.getCodiceProdotto(), nome,  marca, prezzo, iva, codiceImei, memoria );
-			System.out.println("codice prodotto:" +" "+Prodotto.setCodiceProdotto(codiceProdotto));
+			System.out.println("codice prodotto:" +" "+Prodotto.getCodiceProdotto());
 			System.out.println("nome:" +" "+nuovoSmartPhone.nome);
 			System.out.println("marca:" +" "+nuovoSmartPhone.marca);
 			System.out.println("prezzo senza Iva:" +" "+nuovoSmartPhone.prezzo);
@@ -92,7 +92,7 @@ public class Catalogo {
 			
 			
 			if(pollici>0 ) {
-				System.out.println("codice prodotto:" +" "+Prodotto.setCodiceProdotto(codiceProdotto));
+				System.out.println("codice prodotto:" +" "+Prodotto.getCodiceProdotto());
 				System.out.println("nome:" +" "+nuovoTelevisore.nome);
 				System.out.println("marca:" +" "+nuovoTelevisore.marca);
 				System.out.println("prezzo senza Iva:" +" "+nuovoTelevisore.prezzo);
@@ -143,7 +143,7 @@ public class Catalogo {
 			
 			nuoveCuffie = new Cuffie(Prodotto.getCodiceProdotto(), nome,  marca, prezzo, iva, colore, wireless);
 			
-			System.out.println("codice prodotto:" +" "+Prodotto.setCodiceProdotto(codiceProdotto));
+			System.out.println("codice prodotto:" +" "+Prodotto.getCodiceProdotto());
 			System.out.println("nome:" +" "+nuoveCuffie.nome);
 			System.out.println("marca:" +" "+nuoveCuffie.marca);
 			System.out.println("wireless:" +" "+ Cuffie.setWireless(wireless));
