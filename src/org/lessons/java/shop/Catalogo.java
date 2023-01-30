@@ -146,11 +146,11 @@ public class Catalogo {
 			System.out.println("codice prodotto:" +" "+Prodotto.setCodiceProdotto(codiceProdotto));
 			System.out.println("nome:" +" "+nuoveCuffie.nome);
 			System.out.println("marca:" +" "+nuoveCuffie.marca);
+			System.out.println("wireless:" +" "+ Cuffie.setWireless(wireless));
+			System.out.println("colore:" +" "+nuoveCuffie.colore);
 			System.out.println("prezzo senza Iva:" +" "+nuoveCuffie.prezzo);
 			System.out.println("prezzo con Iva:" + " " + Prodotto.prezzoIva(prezzo, Prodotto.getIva()) + "€");
 			data.nextLine();
-			System.out.println("colore:" +" "+nuoveCuffie.colore);
-			System.out.println("wireless:" +" "+nuoveCuffie.wireless);
 		}
 
 		data.close();
