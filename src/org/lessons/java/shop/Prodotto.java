@@ -14,7 +14,7 @@ public class Prodotto {
 	
 	public Prodotto(int codiceProdotto, String nome, String marca, float prezzo, float iva) {
 		super();
-		codiceProdotto = randomNumber.nextInt(10000);
+		this.codiceProdotto = randomNumber.nextInt(10000);
 		setNome(nome);
 		setMarca(marca);
 		setPrezzo(prezzo);
