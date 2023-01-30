@@ -25,9 +25,6 @@ public class Prodotto {
 		return codiceProdotto;
 	}
 	
-	static int setCodiceProdotto( int codiceProdotto) {
-		return codiceProdotto;
-	}
 
 	public String getNome() {
 		return nome;
