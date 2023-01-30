@@ -13,8 +13,8 @@ public class Cuffie extends Prodotto {
 	public String isWireless() {
 		return wireless;
 	}
-	public void setWireless(String wireless) {
-		this.wireless = wireless;
+	static String setWireless(String wireless) {
+		 return wireless;
 	}
 	
 	
