@@ -24,7 +24,6 @@ public class Catalogo {
 		String marca ="";
 		float prezzo = 0;
 		int memoria = 0;
-		int codiceProdotto =  randomNumber.nextInt(10000);
 		float iva = Prodotto.getIva();
 		
 		
